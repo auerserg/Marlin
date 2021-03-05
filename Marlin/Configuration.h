@@ -548,9 +548,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   // Sapphire Pro
-  #define DEFAULT_bedKp  83.36
-  #define DEFAULT_bedKi  16.25
-  #define DEFAULT_bedKd 285.12
+  #define DEFAULT_bedKp 49.29
+  #define DEFAULT_bedKi 9.31
+  #define DEFAULT_bedKd 173.89
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
