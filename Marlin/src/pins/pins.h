@@ -378,7 +378,7 @@
 #elif MB(BTT_SKR_V1_3)
   #include "lpc1768/pins_BTT_SKR_V1_3.h"        // LPC1768                                env:LPC1768
 #elif MB(BTT_SKR_V1_4)
-  #include "lpc1768/pins_BTT_SKR_V1_4.h"        // LPC1768                                env:LPC1768_btt_skr_v1_4
+  #include "lpc1768/pins_BTT_SKR_V1_4.h"        // LPC1768                                env:LPC1768
 
 //
 // LPC1769 ARM Cortex M3
@@ -447,6 +447,8 @@
   #include "sam/pins_PRINTRBOARD_G2.h"          // SAM3X8C                                env:DUE_USB
 #elif MB(CNCONTROLS_15D)
   #include "sam/pins_CNCONTROLS_15D.h"          // SAM3X8E                                env:DUE env:DUE_USB
+#elif MB(KRATOS32)
+  #include "sam/pins_KRATOS32.h"                // SAM3X8E                                env:DUE env:DUE_USB
 
 //
 // STM32 ARM Cortex-M0
@@ -598,6 +600,8 @@
   #include "stm32f4/pins_FYSETC_S6.h"           // STM32F4                                env:FYSETC_S6
 #elif MB(FYSETC_S6_V2_0)
   #include "stm32f4/pins_FYSETC_S6_V2_0.h"      // STM32F4                                env:FYSETC_S6
+#elif MB(FYSETC_SPIDER)
+  #include "stm32f4/pins_FYSETC_SPIDER.h"       // STM32F4                                env:FYSETC_S6
 #elif MB(FLYF407ZG)
   #include "stm32f4/pins_FLYF407ZG.h"           // STM32F4                                env:FLYF407ZG
 #elif MB(MKS_ROBIN2)
